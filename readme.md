@@ -11,4 +11,8 @@ Here, everything was made using pure HTML.
 ### info.html
 
 ![First visual of info.html](./docs/info-html.png)
+
+### Project Structure
+
+![Project File Structure](./docs/FolderStructure1.png)
  ---
