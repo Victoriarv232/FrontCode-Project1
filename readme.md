@@ -2,7 +2,8 @@
 This project is an exercise suggested by the course 'FrontCode' by @iuricode after each part of the book 'Guia para aprender frontend'.
 
 ## Part 1: HTML
-Here, everything was made using pure HTML.
+<details>
+<summary>Here, everything was made using pure HTML.</summary>
 
 ### index.html
 
@@ -15,4 +16,6 @@ Here, everything was made using pure HTML.
 ### Project Structure
 
 ![Project File Structure](./docs/FolderStructure1.png)
- ---
+</details>
+
+---
