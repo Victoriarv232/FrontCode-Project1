@@ -1,0 +1,43 @@
+<!-- Crie um formulário para cadastro de produtos, nele devem conter dois campos (nome e valor) 
+e o botão salvar (utilize as tags semânticas).
+Na mesma página crie uma tabela que deve conter o nome e o valor do produto. 
+Por último, deverá criar um link levando para outra página onde irá conter as informações 
+sobre a loja onde estamos cadastrando nossos produtos (título, descrição e uma imagem). 
+ -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+</head>
+<body>
+    <form action="/index.html" method="post">
+        <fieldset>
+            <label>Nome:</label>
+        <input type="text">
+        <br><br>
+        <label>Valor:</label>
+        <input type="text">
+        <br><br>
+        <input type="button" value="Enviar">
+        </fieldset>
+    </form>
+    <br><br>
+    <table border="" style="width: 100%;">
+        <caption>Tabela de Produtos</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Valor</th>
+        </tr>
+        <tr>
+            <td>Mouse</td>
+            <td>20.00</td>
+        </tr>
+    </table>
+    <br><br>
+    <a href="/info.html">Conheça mais sobre a nossa loja!</a>
+</body>
+</html>
