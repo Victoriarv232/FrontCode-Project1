@@ -1,0 +1,109 @@
+/* No desafio deverá contendo as 
+seguintes especificações:utilizando Flexbox ou Grid CSS:
+
+Adicione estilos no formulário de cadastro de produtos.
+Adicione estilos na tabela de cadastro de produtos.
+Adicione estilos na  página de informações sobre a loja.
+Todos os elementos devem estar responsivos.
+ */
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: #faf8f1;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+main {
+  flex: 1;
+  padding-bottom: 2rem;
+}
+
+form {
+  font-size: 1.5rem;
+  margin-top: 2%;
+  padding: 0.5rem;
+}
+
+fieldset {
+  margin-inline: 5%;
+  border-radius: 0.5rem;
+  background-color: #faeab1;
+}
+
+input {
+  border-radius: 0.5rem;
+  border-width: 0.1rem;
+}
+
+#btn {
+  background-color: #34656d;
+  color: #faf8f1;
+}
+
+#TituloForm {
+  margin-inline: 5%;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+#valor {
+  margin-left: 0.4rem;
+}
+
+table {
+  width: 90%;
+  margin-inline: 5%;
+  font-size: 1.5rem;
+  border: solid;
+  border-spacing: 0px;
+  border-width: 0.1rem;
+  border-radius: 0.5rem;
+  background-color: #faeab1;
+}
+
+tr,
+td,
+th {
+  border: solid;
+  border-width: 0.1rem;
+}
+
+th {
+  background-color: #34656d;
+}
+
+tr:hover {
+  background-color: #7a9ea3;
+}
+
+td {
+  padding-left: 0.5rem;
+  width: 50%;
+}
+
+caption {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+a {
+  font-size: 1.5rem;
+  margin-left: 5%;
+  color: #114047;
+}
+
+#waves {
+  max-width: 100%;
+  display: block;
+  position: relative;
+  bottom: 0;
+}

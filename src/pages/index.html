@@ -7,38 +7,47 @@ sobre a loja onde estamos cadastrando nossos produtos (título, descrição e um
 
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastro</title>
-    <link rel="stylesheet" href="../styles/style.css">
-</head>
-</head>
-<body>
-    <form action="/index.html" method="post">
+    <link rel="stylesheet" href="../styles/styleIndex.css" />
+  </head>
+  <body>
+    <main>
+      <form action="/index.html" method="post">
+        <label id="TituloForm">Cadastro de Produtos</label>
         <fieldset>
-            <label>Nome:</label>
-        <input type="text">
-        <br><br>
-        <label>Valor:</label>
-        <input type="text">
-        <br><br>
-        <input type="button" value="Enviar">
+          <label>Nome:</label>
+          <input type="text" />
+          <br /><br />
+          <label>Valor:</label>
+          <input type="text" id="valor" />
+          <br /><br />
+          <input type="button" value="Enviar" id="btn" />
         </fieldset>
-    </form>
-    <br><br>
-    <table border="" style="width: 100%;">
-        <caption>Tabela de Produtos</caption>
+      </form>
+      <br /><br />
+      <table border="">
+        <caption>
+          Tabela de Produtos
+        </caption>
         <tr>
-            <th>Nome</th>
-            <th>Valor</th>
+          <th>Nome</th>
+          <th>Valor</th>
         </tr>
         <tr>
-            <td>Mouse</td>
-            <td>20.00</td>
+          <td>Mouse</td>
+          <td>20.00</td>
         </tr>
-    </table>
-    <br><br>
-    <a href="/info.html">Conheça mais sobre a nossa loja!</a>
-</body>
+        <tr>
+          <td>Teclado</td>
+          <td>50.00</td>
+        </tr>
+      </table>
+      <br /><br />
+      <a href="/src/pages/info.html">Conheça mais sobre a nossa loja!</a>
+    </main>
+    <img src="../images/wave.svg" id="waves" />
+  </body>
 </html>
