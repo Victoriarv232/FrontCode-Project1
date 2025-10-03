@@ -9,15 +9,15 @@ This project is an exercise suggested by the course 'FrontCode' by @iuricode aft
 
 ### Index page
 
-![First visual of index.html](./docs/index-html.png)
+![First visual of index.html](./index-html.png)
 
 ### Info page
 
-![First visual of info.html](./docs/info-html.png)
+![First visual of info.html](./info-html.png)
 
 ### Project Files Structure
 
-![Project File Structure](./docs/FolderStructure1.png)
+![Project File Structure](./FolderStructure1.png)
 
 </details>
 
@@ -30,15 +30,15 @@ This project is an exercise suggested by the course 'FrontCode' by @iuricode aft
 
 ### Index page
 
-![Index page Styled](./docs/index-css.png)
+![Index page Styled](./index-css.png)
 
 ### Info page
 
-![Info page Styled](./docs/info-css.png)
+![Info page Styled](./info-css.png)
 
 ### Main Color Pallete
 
-![Color Palette](./docs/ColorPalette.png)
+![Color Palette](./ColorPalette.png)
 
 The colors used in this project are:
 
@@ -51,7 +51,7 @@ The colors used in this project are:
 
 ### Project Files Structure
 
-![Project File Structure](./docs/FolderStructure2.png)
+![Project File Structure](./FolderStructure2.png)
 
 </details>
 
@@ -64,8 +64,8 @@ The colors used in this project are:
 
 ### Index page
 
-![Index page with JS](./docs/index-js1.png)
-![Index page with JS](./docs/index-js2.png)
+![Index page with JS](./index-js1.png)
+![Index page with JS](./index-js2.png)
 
 ### Info page
 
@@ -73,7 +73,7 @@ The info page has no interactions, so it's still the same (No JS included).
 
 ### Project Files Structure
 
-![Project File Structure](./docs/FolderStructure3.png)
+![Project File Structure](./FolderStructure3.png)
 
 </details>
 
