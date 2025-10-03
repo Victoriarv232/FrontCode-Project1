@@ -1,5 +1,5 @@
 // Configurações básicas das páginas
-@use 'variables' as *;
+@use "variables" as *;
 
 html {
   font-size: 62.5%;
@@ -24,4 +24,9 @@ a {
   font-size: $font-size-base;
   margin-left: 5%;
   color: $color-link;
+}
+
+p {
+  font-size: $font-size-base;
+  margin-inline: 5%;
 }
