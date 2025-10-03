@@ -7,12 +7,11 @@ This project is an exercise suggested by the course 'FrontCode' by @iuricode aft
 <details>
 <summary>Here, everything was made using pure HTML.</summary>
 
-### index.html
+### Index page
 
 ![First visual of index.html](./docs/index-html.png)
 
-### info.html
-
+### Info page
 ![First visual of info.html](./docs/info-html.png)
 
 ### Project Files Structure
@@ -28,13 +27,13 @@ This project is an exercise suggested by the course 'FrontCode' by @iuricode aft
 <details>
 <summary>Here, I've styled the HTML pages using CSS</summary>
 
-### index.css
+### Index page
 
 ![Index page Styled](./docs/index-css.png)
 
-### info.css
+### Info page
 
-![Index page Styled](./docs/info-css.png)
+![Info page Styled](./docs/info-css.png)
 
 ### Main Color Pallete
 
@@ -44,14 +43,36 @@ The colors used in this project are:
 
 - #faf8f1
 - #faeab1
-- #34656d
 - #7a9ea3
+- #34656d
 - #114047
 - #000000
 
 ### Project Files Structure
 
 ![Project File Structure](./docs/FolderStructure2.png)
+
+</details>
+
+---
+
+## Part 3: JAVASCRIPT
+
+<details>
+<summary>Here, I've added some functionalities using JavaScript</summary>
+
+### Index page
+
+![Index page with JS](./docs/index-js1.png)
+![Index page with JS](./docs/index-js2.png)
+
+### Info page
+
+The info page has no interactions, so it's still the same (No JS included).
+
+### Project Files Structure
+
+![Project File Structure](./docs/FolderStructure3.png)
 
 </details>
 
