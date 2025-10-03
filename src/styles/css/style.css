@@ -1,12 +1,10 @@
-/* No desafio deverá contendo as 
-seguintes especificações:utilizando Flexbox ou Grid CSS:
-
-Adicione estilos no formulário de cadastro de produtos.
-Adicione estilos na tabela de cadastro de produtos.
-Adicione estilos na  página de informações sobre a loja.
-Todos os elementos devem estar responsivos.
+@charset "UTF-8";
+/* 
+> Utilize o código CSS da aplicação anterior e passe ele para o Sass.
+> Separe o código em três arquivos: _form.scss,  _table.scss e styles.scss.
+>Utilize recursos do Sass como: @import, @mixin, @include e variáveis para as cores utilizadas 
+(caso não tenha utilizado no arquivo CSS).
  */
-
 html {
   font-size: 62.5%;
   height: 100%;
@@ -26,6 +24,12 @@ main {
   padding-bottom: 2rem;
 }
 
+a {
+  font-size: 1.5rem;
+  margin-left: 5%;
+  color: #114047;
+}
+
 form {
   font-size: 1.5rem;
   margin-top: 2%;
@@ -40,14 +44,13 @@ fieldset {
 
 input {
   border-radius: 0.5rem;
-  border-width: 0.1rem;
+  border-width: 0.1rem solid;
 }
 
 #btn {
   background-color: #34656d;
   color: #faf8f1;
 }
-
 #btn:active {
   background-color: #7a9ea3;
 }
@@ -66,18 +69,19 @@ table {
   width: 90%;
   margin-inline: 5%;
   font-size: 1.5rem;
-  border: solid;
+  border: 0.1rem solid;
   border-spacing: 0px;
-  border-width: 0.1rem;
   border-radius: 0.5rem;
   background-color: #faeab1;
 }
 
-tr,
-td,
-th {
-  border: solid;
-  border-width: 0.1rem;
+caption {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+tr, td, th {
+  border: 0.1rem solid;
 }
 
 th {
@@ -93,20 +97,9 @@ td {
   width: 50%;
 }
 
-caption {
-  font-size: 1.8rem;
-  font-weight: bold;
-}
-
-a {
-  font-size: 1.5rem;
-  margin-left: 5%;
-  color: #114047;
-}
-
 #waves {
   max-width: 100%;
   display: block;
   position: relative;
   bottom: 0;
-}
+}/*# sourceMappingURL=style.css.map */
