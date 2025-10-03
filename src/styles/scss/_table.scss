@@ -1,0 +1,36 @@
+@use 'variables';
+
+table {
+  width: 90%;
+  margin-inline: 5%;
+  font-size: $font-size-base;
+  border: $border-thin;
+  border-spacing: 0px;
+  border-radius: $radius;
+  background-color: $color-bg2;
+}
+
+
+caption {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+tr, td, th {
+  border: $border-thin;
+}
+
+th {
+  background-color: $color-primary;
+}
+
+tr:hover {
+  background-color: $color-hover;
+}
+
+td {
+  padding-left: 0.5rem;
+  width: 50%;
+}
+
+

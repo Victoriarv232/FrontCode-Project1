@@ -1,0 +1,27 @@
+// Configurações básicas das páginas
+@use 'variables'
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: $color-bg;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding-bottom: 2rem;
+}
+
+a {
+  font-size: $font-size-base;
+  margin-left: 5%;
+  color: $color-link;
+}

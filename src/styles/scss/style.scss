@@ -1,0 +1,12 @@
+/* 
+> Utilize o código CSS da aplicação anterior e passe ele para o Sass.
+> Separe o código em três arquivos: _form.scss,  _table.scss e styles.scss.
+>Utilize recursos do Sass como: @import, @mixin, @include e variáveis para as cores utilizadas 
+(caso não tenha utilizado no arquivo CSS).
+ */
+
+@use "variables";
+@use "base";
+@use "form";
+@use "table";
+@use "layout";

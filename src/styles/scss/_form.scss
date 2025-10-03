@@ -1,0 +1,37 @@
+@use 'variables'
+
+form {
+  font-size: $font-size-base;
+  margin-top: 2%;
+  padding: 0.5rem;
+}
+
+fieldset {
+  margin-inline: 5%;
+  border-radius: $radius;
+  background-color: $color-bg2;
+}
+
+input {
+  border-radius: $radius;
+  border-width: $border-thin;
+}
+
+#btn {
+  background-color: $color-primary;
+  color: $color-bg;
+
+  &:active {
+    background-color: $color-hover;
+  }
+}
+
+#TituloForm {
+  margin-inline: 5%;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+#valor {
+  margin-left: 0.4rem;
+}
