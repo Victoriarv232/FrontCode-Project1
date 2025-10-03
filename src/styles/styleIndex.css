@@ -19,7 +19,6 @@ body {
   background-color: #faf8f1;
   display: flex;
   flex-direction: column;
-  
 }
 
 main {
@@ -47,6 +46,10 @@ input {
 #btn {
   background-color: #34656d;
   color: #faf8f1;
+}
+
+#btn:active {
+  background-color: #7a9ea3;
 }
 
 #TituloForm {

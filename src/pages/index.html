@@ -19,35 +19,32 @@ sobre a loja onde estamos cadastrando nossos produtos (título, descrição e um
         <label id="TituloForm">Cadastro de Produtos</label>
         <fieldset>
           <label>Nome:</label>
-          <input type="text" />
+          <input type="text" id="nome" />
           <br /><br />
           <label>Valor:</label>
           <input type="text" id="valor" />
           <br /><br />
-          <input type="button" value="Enviar" id="btn" />
+          <input type="button" value="Enviar" id="btn"/>
         </fieldset>
       </form>
       <br /><br />
-      <table border="">
+      <table border="" id="table">
         <caption>
           Tabela de Produtos
         </caption>
-        <tr>
-          <th>Nome</th>
-          <th>Valor</th>
-        </tr>
-        <tr>
-          <td>Mouse</td>
-          <td>20.00</td>
-        </tr>
-        <tr>
-          <td>Teclado</td>
-          <td>50.00</td>
-        </tr>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Valor</th>
+          </tr>
+        </thead>
+        <tbody
+        </tbody>
       </table>
       <br /><br />
       <a href="/src/pages/info.html">Conheça mais sobre a nossa loja!</a>
     </main>
     <img src="../images/wave.svg" id="waves" />
+    <script src="../scripts/script.js"></script>
   </body>
 </html>
