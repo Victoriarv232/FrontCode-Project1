@@ -12,6 +12,7 @@ This project is an exercise suggested by the course 'FrontCode' by @iuricode aft
 ![First visual of index.html](./docs/index-html.png)
 
 ### Info page
+
 ![First visual of info.html](./docs/info-html.png)
 
 ### Project Files Structure
