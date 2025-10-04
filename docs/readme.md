@@ -78,3 +78,26 @@ The info page has no interactions, so it's still the same (No JS included).
 </details>
 
 ---
+
+## Part 4: SASS
+
+<details>
+<summary>Here, I've replaced the original CSS files by SCSS (SASS) files.</summary>
+
+The visuals are still the same, but the code is more clear.
+
+### Index page
+
+![Index page Styled](./index-sass.png)
+
+### Info page
+
+![Info page Styled](./info-sass.png)
+
+### Project Files Structure
+
+![Project File Structure](./FolderStructure4.png)
+
+</details>
+
+---
